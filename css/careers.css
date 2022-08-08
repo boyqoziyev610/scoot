@@ -1,0 +1,155 @@
+.bitmap__way {
+  width: 1440px;
+  height: 200px;
+  background: url(../images/Bitmap__about.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bitmap__way.about__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bitmap__way.about__flex h3 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  /* identical to box height, or 100% */
+  letter-spacing: -2.5px;
+  margin-top: 70px;
+  margin-left: 70px;
+  color: #FFFFFF;
+}
+.bitmap__way.about__flex img {
+  margin-top: 70px;
+}
+
+.comand {
+  width: 445px;
+  height: 445px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: url(../images/comand.png);
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+}
+.comand .girl__left {
+  background: #FCB72B;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 734.38px;
+  height: 114.37px;
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.flex-develop {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-develop .flex__develop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flex-develop .design__card {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 150px;
+}
+.flex-develop .design__card h3 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+
+@media (max-width: 768px) {
+  .bitmap__way {
+    width: 768px;
+    height: 200px;
+    background: url(../images/Bitmap__about.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .bitmap__way.about__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bitmap__way.about__flex h3 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    /* identical to box height, or 100% */
+    letter-spacing: -2.5px;
+    margin-top: 70px;
+    margin-left: 70px;
+    color: #FFFFFF;
+  }
+  .bitmap__way.about__flex img {
+    margin-top: 70px;
+  }
+  .comand {
+    width: 445px;
+    height: 445px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: url(../images/comand.png);
+    -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
+  }
+  .comand .girl__left {
+    background: #FCB72B;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 734.38px;
+    height: 114.37px;
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  .flex-develop {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .flex-develop .flex__develop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .flex-develop .design__card {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 150px;
+  }
+  .flex-develop .design__card h3 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    letter-spacing: -1.07143px;
+    color: #495567;
+  }
+}/*# sourceMappingURL=careers.css.map */
